@@ -299,10 +299,10 @@
                         <p><strong>TIS Inc.</strong>
                             <br>160-0023,
                             <br>日本,
-                            <br>新宿区,東京,
-                            <br>西新宿8-17-1,
-                            <br>
-                            <strong>住友不動産新宿グランドタワー</strong>
+                            <br>東京都 新宿区 西新宿8-17-1,
+                            <br>住友不動産新宿グランドタワー
+
+
                         </p>
 
                         <a href="http://www.tis.co.jp/recruit/index.html">Go to contact page</a>
