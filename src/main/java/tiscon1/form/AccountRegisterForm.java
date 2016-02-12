@@ -3,6 +3,7 @@ package tiscon1.form;
 import lombok.Data;
 
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
 
@@ -19,7 +20,9 @@ public class AccountRegisterForm implements Serializable {
     @NotNull
     private String email;
 
-    @Size(min = 6)
+    @Size(min = 8, max = 20)
     @NotNull
     private String password;
+
+
 }

@@ -48,7 +48,7 @@
     <div id="top">
         <div class="container">
             <div class="col-md-6 offer" data-animate="fadeInDown">
-                <a href="#" class="btn btn-success btn-sm" data-animate-hover="shake">Offer of the day</a>  <a href="#">Get flat 35% off on orders over $50!</a>
+                <a href="#" class="btn btn-success btn-sm" data-animate-hover="fadeIn">今日のオススメ</a>  <a href="#">$50以上お買い上げで35%オフ！</a>
             </div>
             <div class="col-md-6" data-animate="fadeInDown">
                 <ul class="menu">
@@ -67,15 +67,15 @@
                         </ul>
                     </li>
                     <#else>
-                    <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+                    <li><a href="#" data-toggle="modal" data-target="#login-modal">ログイン</a>
                     </li>
                     </#if>
-                    <li><a href="/register">Register</a>
+                    <li><a href="/register">新規登録</a>
                     </li>
-                    <li><a href="http://www.tis.co.jp/recruit/index.html">Contact</a>
+                    <li><a href="http://www.tis.co.jp">TIS HPへ</a>
                     </li>
                 </ul>
-            </div>
+            </div>contact
         </div>
         <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
             <div class="modal-dialog modal-sm">
@@ -134,14 +134,13 @@
                         <i class="fa fa-search"></i>
                     </button>
                     <a class="btn btn-default navbar-toggle" href="/basket">
-                        <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">3 items in cart</span>
+                        <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">3アイテム</span>
                     </a>
                 </div>
             </div>
             <!--/.navbar-header -->
 
             <div class="navbar-collapse collapse" id="navigation">
-
                 <ul class="nav navbar-nav navbar-left">
                     <li>
                         <a href="/">Home</a>
@@ -196,7 +195,7 @@
             <div class="navbar-buttons">
 
                 <div class="navbar-collapse collapse right" id="basket-overview">
-                    <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
+                    <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">カート 3</span></a>
                 </div>
                 <!--/.nav-collapse -->
 
@@ -246,9 +245,9 @@
                         <h4>Pages</h4>
 
                         <ul>
-                            <li><a href="http://www.tis.co.jp/recruit/index.html">About us</a>
+                            <li><a href="http://www.tis.co.jp/recruit/index.html">TISについて</a>
                             </li>
-                            <li><a href="http://www.tis.co.jp/recruit/index.html">Contact us</a>
+                            <li><a href="http://www.tis.co.jp/recruit/index.html">お問合せ</a>
                             </li>
                         </ul>
 
@@ -257,9 +256,9 @@
                         <h4>User section</h4>
 
                         <ul>
-                            <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+                            <li><a href="#" data-toggle="modal" data-target="#login-modal">ログイン</a>
                             </li>
-                            <li><a href="/register">Regiter</a>
+                            <li><a href="/register">新規登録</a>
                             </li>
                         </ul>
 
@@ -298,12 +297,12 @@
                         <h4>Where to find us</h4>
 
                         <p><strong>TIS Inc.</strong>
-                            <br>Sumitomo Fudosan Shinjuku Grand Tower,
-                            <br>17-1,Nishishinjuku 8-chome,
-                            <br>Shinjuku-ku,Tokyo,
-                            <br>160-0023
+                            <br>160-0023,
+                            <br>日本,
+                            <br>新宿区,東京,
+                            <br>西新宿8-17-1,
                             <br>
-                            <strong>Japan</strong>
+                            <strong>住友不動産新宿グランドタワー</strong>
                         </p>
 
                         <a href="http://www.tis.co.jp/recruit/index.html">Go to contact page</a>
@@ -322,8 +321,9 @@
                         <h4>Stay in touch</h4>
 
                         <p class="social">
-                            <a href="http://www.facebook.com/tis.recruit" class="facebook external" data-animate-hover="shake"><i class="fa fa-facebook"></i></a>
-                            <a href="mailto:recruit★tis.co.jp" class="email external" data-animate-hover="shake"><i class="fa fa-envelope"></i></a>
+                            <a href="http://www.facebook.com/tis.recruit" class="facebook external" data-animate-hover="fadeIn
+                            "><i class="fa fa-facebook"></i></a>
+                            <a href="mailto:recruit★tis.co.jp" class="email external" data-animate-hover="fadeIn"><i class="fa fa-envelope"></i></a>
                             <h6>メールアドレスの★を@に変換してください。</h6>
                         </p>
 
